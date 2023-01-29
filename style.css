@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    /* outline: 1px solid coral; */
+    outline: 1px solid coral;
 }
 
 a {
@@ -58,6 +58,11 @@ body {
     padding-bottom: 2rem;
     position: relative;
     overflow-x: hidden;
+}
+
+.overflow-x-hidden, html{
+    overflow-x: hidden;
+    width:100%;
 }
 
 header {
@@ -158,8 +163,6 @@ main {
     .header__nav {
         position: absolute;
         inset: 0 0 0 30%;
-
-        height: 100vh;
     }
 
     .mobile-nav-toggle {
@@ -192,7 +195,7 @@ main {
     }
 
     .primary-navigation[data-visible="true"] {
-        transform: translateX(10%);
+        transform: translateX(0%);
     }
 
     .primary-navigation li a {
