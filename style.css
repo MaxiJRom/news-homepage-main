@@ -67,10 +67,6 @@ header {
 }
 
 
-.header__nav {
-    /* flex: 0 0 40%; */
-}
-
 .primary-navigation {
     list-style: none;
     display: flex;
