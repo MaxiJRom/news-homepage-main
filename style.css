@@ -57,6 +57,7 @@ body {
     margin: 0 auto;
     padding-bottom: 2rem;
     position: relative;
+    overflow-x: hidden;
 }
 
 header {
