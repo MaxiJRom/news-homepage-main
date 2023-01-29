@@ -163,7 +163,7 @@ main {
 
     .mobile-nav-toggle {
         display: block;
-        background: url(/assets/images/icon-menu.svg);
+        background: url(./assets/images/icon-menu.svg);
         background-repeat: no-repeat;
         border: 0;
         z-index: 100;
@@ -174,7 +174,7 @@ main {
     }
 
     .mobile-nav-toggle[aria-expanded=true] {
-        background: url(/assets/images/icon-menu-close.svg);
+        background: url(./assets/images/icon-menu-close.svg);
         background-repeat: no-repeat;
     }
 
