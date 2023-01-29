@@ -195,7 +195,7 @@ main {
     }
 
     .primary-navigation[data-visible="true"] {
-        transform: translateX(0%);
+        transform: translateX(3%);
     }
 
     .primary-navigation li a {
